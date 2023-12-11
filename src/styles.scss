@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #f5f5f5;
+    color: #272822;
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+
+  
+blockquote {
+    border-left: 3px solid rgba(0, 0, 0, 0.21);
+    padding-left: 12px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
