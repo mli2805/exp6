@@ -1,6 +1,5 @@
-## **Help tooltip caption**
-
----
+Help tooltip caption
+===
 
 ```typescript
 this.ref.instance.section = 'text текст';
@@ -15,7 +14,7 @@ images could be loaded from assets
 
 > Using markdown component and/or directive, you `will` be able to use the lineNumbers property to activate the plugin. <span class="blue-text">The property can be</span> used in combination with either data for variable binding, src for remote content or using transclusion for static markdown.
 
-> Additionally, you can use start input property to specify the offset number for the first display line.
+> Additionally, you can _use_ start __input__ property to specify the offset number for the first display line.
 
 ```css
 .blue-text {
