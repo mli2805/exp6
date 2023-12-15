@@ -13,9 +13,14 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.markdownService.renderer.heading = (text: string, level: number) => {
-      console.log(text);
-      console.log(level);
-      return '<div class="text-2xl font-bold m-4 text-red-600">' + text + '</div>';
+      return '<div class="text-1xl font-bold mt-4 mb-2 text-green-600">' + text + '</div>';
     };
+
+    this.markdownService.renderer.link = (href: string, title: string | null | undefined, text: string) => {
+      console.log(`href`, href);
+      console.log(`title`, title);
+      console.log(`text`, text);
+      return `<a class="text-blue-600 visited:text-purple-300" href="${href}" target="blank">`+ text + `</a>`;
+    }
   }
 }
