@@ -1,6 +1,12 @@
-<div class="text-1xl font-bold mt-4 mb-2 text-green-600">Header of something</div>
-<a class="text-blue-600 visited:text-purple-300" href="https://github.com/jfcere/ngx-markdown" target="_blank">This is a link in HTML</a>
+<div>
+    <div class="text-1xl font-bold mt-4 mb-2 text-green-600" [appColorize]="'red'">Header of something</div>
+    <a class="text-blue-600 visited:text-purple-300" href="https://github.com/jfcere/ngx-markdown" target="_blank">This is a link in HTML</a>
 
-<markdown [data]="tooltips['test_port']"></markdown>
-<markdown [data]="tooltips['front_panel']"></markdown>
-<markdown [data]="tooltips['eof_threshold']"></markdown>
+    <markdown [data]="tooltips['test_port']"></markdown>
+    <markdown [data]="tooltips['front_panel']"></markdown>
+    <markdown [data]="tooltips['eof_threshold']"></markdown>
+
+    <app-my-component [text]="first"></app-my-component>
+    <app-my-component [text]="second"></app-my-component>
+    <app-my-component [text]="third" ></app-my-component>
+</div>
