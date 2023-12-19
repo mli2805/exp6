@@ -12,13 +12,13 @@ export class HelpTooltipComponent implements OnInit {
   ngOnInit(): void {
     switch (this.section) {
       case 'FrontPanelCheckHelpComponent':
-        this.cnt = `<div></div>`;
+        this.cnt = `<div>{{ "1" }}</div>`;
         break;
       case 'TestPortHelpComponent':
-        this.cnt = `<div></div>`;
+        this.cnt = `<div>{{ "2" }}</div>`;
         break;
       case 'EofThresholdHelpComponent':
-        this.cnt = `<div></div>`;
+        this.cnt = `<div>{{ "3" }}</div>`;
         break;
       default:
         break;

@@ -34,7 +34,7 @@ export class HelpTooltipDirective {
     this.ref = this.vr.createComponent(HelpTooltipComponent);
     this.ref.instance.section = section;
 
-    this.renderer.setStyle(this.ref.location.nativeElement, 'opacity', '0');
+    this.renderer.setStyle(this.ref.location.nativeElement, 'opacity', '1');
 
     // this.renderer.insertBefore(
     //   this.elementRef.nativeElement,

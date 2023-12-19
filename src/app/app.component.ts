@@ -9,9 +9,9 @@ import { MarkdownService } from 'ngx-markdown';
 export class AppComponent implements OnInit {
   title = 'AngularExp6';
 
-  first = "test port";
-  second = "front panel check";
-  third = "end of fiber threshold";
+  first = "test port on first";
+  second = "front panel check on second";
+  third = "end of fiber threshold on third";
 
   tooltips = { "test_port" : `Selecting Test port
   ===
